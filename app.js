@@ -43,7 +43,7 @@ let api_url = await apifunction(config.api_url, secs);
 
 
 app.use(express.static(path.join(__dirname, "assets")));
-app.listen(port, () => { console.log("Website running on " + port + " port. Go to http://localhost:" + port + " to vist your website")});
+app.listen(port, () => { console.log("hurray !! your website is  running on " + port + " port. Go to http://localhost:" + port + " to vist your website !")});
 console.log("Connected to " + port + " PORT");
  
 
